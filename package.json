@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Naty and Santi wedding page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josemariogutierrez/natysanti.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josemariogutierrez/natysanti/issues"
+  },
+  "homepage": "https://github.com/josemariogutierrez/natysanti#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
