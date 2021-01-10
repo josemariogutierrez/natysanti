@@ -1,6 +1,7 @@
 * {
   --primary-color: #23b3be;
-  --quote-bg: #f9f2ee;
+  --quote-line-color: #fff;
+  --quote-bg: #24b2be;
 }
 
 .elementor-2 .elementor-element.elementor-element-444d408>.elementor-container {
@@ -140,7 +141,7 @@
 }
 
 .elementor-2 .elementor-element.elementor-element-7491c52>.elementor-widget-container {
-  margin: 0 0 -40px
+  margin: 0 0 -60px
 }
 
 .elementor-2 .elementor-element.elementor-element-50e38c9 {
@@ -319,9 +320,9 @@
 .elementor-2 .elementor-element.elementor-element-bb23659>.elementor-element-populated {
   border-style: solid;
   border-width: 1px;
-  border-color: var(--primary-color);
+  border-color: var(--quote-line-color);
   transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
-  margin: 104px 0 -80px;
+  margin: 104px 0;
   padding: 0 80px
 }
 
@@ -334,18 +335,18 @@
 }
 
 .elementor-2 .elementor-element.elementor-element-bcd2601.elementor-view-stacked .elementor-icon {
-  background-color: var(--primary-color);
+  background-color: var(--quote-line-color);
 }
 
 .elementor-2 .elementor-element.elementor-element-bcd2601.elementor-view-framed .elementor-icon,
 .elementor-2 .elementor-element.elementor-element-bcd2601.elementor-view-default .elementor-icon {
-  color: var(--primary-color);
-  border-color: var(--primary-color);
+  color: var(--quote-line-color);
+  border-color: var(--quote-line-color);
 }
 
 .elementor-2 .elementor-element.elementor-element-bcd2601.elementor-view-framed .elementor-icon,
 .elementor-2 .elementor-element.elementor-element-bcd2601.elementor-view-default .elementor-icon svg {
-  fill: var(--primary-color);
+  fill: var(--quote-line-color);
 }
 
 .elementor-2 .elementor-element.elementor-element-bcd2601 .elementor-icon {
@@ -379,7 +380,8 @@
 
 .elementor-2 .elementor-element.elementor-element-2f6842e .elementor-heading-title {
   text-transform: uppercase;
-  letter-spacing: 4px
+  letter-spacing: 4px;
+  color: var(--quote-line-color);
 }
 
 .elementor-2 .elementor-element.elementor-element-1971f7a .elementor-icon-wrapper {
@@ -398,7 +400,7 @@
 
 .elementor-2 .elementor-element.elementor-element-1971f7a.elementor-view-framed .elementor-icon,
 .elementor-2 .elementor-element.elementor-element-1971f7a.elementor-view-default .elementor-icon svg {
-  fill: #23b3be;
+  fill: var(--quote-line-color);
   width: 48px;
   height: 48px;
 }
@@ -415,7 +417,7 @@
 .elementor-2 .elementor-element.elementor-element-1971f7a>.elementor-widget-container {
   margin: 8px 0 -24px;
   padding: 8px 8px 0;
-  background-color: #fff
+  background-color: var(--quote-bg);
 }
 
 .elementor-2 .elementor-element.elementor-element-1971f7a {
@@ -425,14 +427,13 @@
 }
 
 .elementor-2 .elementor-element.elementor-element-1e58204>.elementor-background-overlay {
-  background-image: url(../img/flower-bg.svg);
   background-position: center center;
   background-repeat: no-repeat;
   opacity: .04
 }
 
 .elementor-2 .elementor-element.elementor-element-1e58204 {
-  padding: 104px 0
+  padding: 0
 }
 
 .elementor-2 .elementor-element.elementor-element-75f8464>.elementor-element-populated {
@@ -440,7 +441,7 @@
 }
 
 .elementor-2 .elementor-element.elementor-element-930c2bf>.elementor-widget-container {
-  margin: 0 0 -40px
+  margin: 0 0 -60px
 }
 
 .elementor-2 .elementor-element.elementor-element-fb79863.elementor-position-right .elementor-image-box-img {
@@ -912,12 +913,12 @@
   background-image: url(../img/confirma-asistencia-bg.jpg);
   background-position: center left;
   background-repeat: no-repeat;
-  background-size: 72vw auto
+  background-size: 100% auto
 }
 
 .elementor-2 .elementor-element.elementor-element-1bcec7c>.elementor-background-overlay {
   background-color: transparent;
-  background-image: linear-gradient(90deg, #2F2D28 72%, rgba(255, 255, 255, 0) 72%);
+  background-image: linear-gradient(90deg, #060606 72%, rgba(255, 255, 255, 0) 100%);
   opacity: .64;
   transition: background .3s, border-radius .3s, opacity .3s
 }
@@ -947,9 +948,8 @@
 
 .elementor-2 .elementor-element.elementor-element-277df1a:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
 .elementor-2 .elementor-element.elementor-element-277df1a>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-  background-image: url(../img/flower-icon-02.png);
   background-position: bottom right;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
 }
 
 .elementor-2 .elementor-element.elementor-element-277df1a>.elementor-element-populated {
@@ -969,13 +969,12 @@
   border-style: solid;
   border-width: 1px;
   border-color: var(--primary-color);
-  box-shadow: 0 16px 120px -24px rgba(199, 134, 101, .4)
+  box-shadow: 0 16px 120px -24px rgba(97, 97, 97, 0.4)
 }
 
 .elementor-2 .elementor-element.elementor-element-c41a453:not(.elementor-motion-effects-element-type-background),
 .elementor-2 .elementor-element.elementor-element-c41a453>.elementor-motion-effects-container>.elementor-motion-effects-layer {
   background-color: transparent;
-  background-image: linear-gradient(180deg, #FFFFFF 85%, #ccfcff 85%)
 }
 
 .elementor-2 .elementor-element.elementor-element-c41a453>.elementor-background-overlay {
@@ -1013,8 +1012,9 @@
 .elementor-2 .elementor-element.elementor-element-ba65d9b {
   transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
   margin-top: 0;
+  margin: 104px 0;
+  padding: 84px 0;
   margin-bottom: 0;
-  padding: 104px 0
 }
 
 .elementor-2 .elementor-element.elementor-element-cd81dba>.elementor-element-populated {
@@ -1028,7 +1028,7 @@
 }
 
 .elementor-2 .elementor-element.elementor-element-9ed425d>.elementor-widget-container {
-  margin: 0 0 -40px
+  margin: 0 0 -60px
 }
 
 .elementor-2 .elementor-element.elementor-element-b4ebafc.elementor-position-right .elementor-image-box-img {
@@ -1328,7 +1328,6 @@
 .elementor-2 .elementor-element.elementor-element-adf4489>.elementor-widget-container {
   margin: 0;
   padding: 0;
-  box-shadow: 0 40px 80px -40px rgba(199, 134, 101, .4)
 }
 
 body.elementor-page-2:not(.elementor-motion-effects-element-type-background),
@@ -1418,7 +1417,7 @@ body.elementor-page-2>.elementor-motion-effects-container>.elementor-motion-effe
   }
 
   .elementor-2 .elementor-element.elementor-element-bb23659>.elementor-element-populated {
-    margin: 64px 0 -122px
+    margin: 64px 0
   }
 
   .elementor-2 .elementor-element.elementor-element-1e58204 {
@@ -1570,7 +1569,7 @@ body.elementor-page-2>.elementor-motion-effects-container>.elementor-motion-effe
   }
 
   .elementor-2 .elementor-element.elementor-element-bb23659>.elementor-element-populated {
-    margin: 40px 24px -100px;
+    margin: 40px 24px;
     padding: 16px
   }
 
