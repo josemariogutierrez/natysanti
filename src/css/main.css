@@ -18,3 +18,7 @@
 .wave-icon {
   opacity: 0.3;
 }
+
+.justify-end {
+  justify-content: flex-end;
+}
