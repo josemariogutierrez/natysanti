@@ -2,7 +2,7 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 
 },{}],"j06p":[function(require,module,exports) {
 
-},{"./../img/naty-santy-hero.jpg":[["naty-santy-hero.9750534b.jpg","h9Lv"],"h9Lv"],"./../img/ampersand.svg":[["ampersand.a559330e.svg","hu8K"],"hu8K"],"./../img/bouquet-img.jpg":[["bouquet-img.4ab15c73.jpg","YVQ8"],"YVQ8"],"./../img/confirma-asistencia-bg.jpg":[["confirma-asistencia-bg.38e152a7.jpg","N6y0"],"N6y0"]}],"I7Ak":[function(require,module,exports) {
+},{"./../img/naty-santy-hero.jpg":[["naty-santy-hero.77760bed.jpg","h9Lv"],"h9Lv"],"./../img/ampersand.svg":[["ampersand.a559330e.svg","hu8K"],"hu8K"],"./../img/bouquet-img.jpg":[["bouquet-img.4ab15c73.jpg","YVQ8"],"YVQ8"],"./../img/confirma-asistencia-bg.jpg":[["confirma-asistencia-bg.38e152a7.jpg","N6y0"],"N6y0"]}],"I7Ak":[function(require,module,exports) {
 
 },{"./style.css":"amqR","./frontend.css":"amqR","./css_002":"amqR","./post-2.css":"j06p","./wpforms-base.css":"amqR","./inline.css":"amqR"}],"d6sW":[function(require,module,exports) {
 "use strict";require("../css/main.css"),console.log("Naty y Santi");
