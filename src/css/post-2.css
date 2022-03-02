@@ -1,7 +1,7 @@
 * {
-  --primary-color: #23b3be;
+  --primary-color: #451849;
   --quote-line-color: #fff;
-  --quote-bg: #24b2be;
+  --quote-bg: #451849;
 }
 
 .elementor-2 .elementor-element.elementor-element-444d408>.elementor-container {
@@ -1001,7 +1001,7 @@
 
 .elementor-2 .elementor-element.elementor-element-ba65d9b:not(.elementor-motion-effects-element-type-background),
 .elementor-2 .elementor-element.elementor-element-ba65d9b>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-  background-color: #ccfcff
+  background-color: #f5f5f5
 }
 
 .elementor-2 .elementor-element.elementor-element-ba65d9b>.elementor-background-overlay {
@@ -1183,7 +1183,7 @@
 }
 
 .elementor-2 .elementor-element.elementor-element-dc562eb.elementor-view-stacked .elementor-icon {
-  background-color: #ccfcff;
+  background-color: #dbfdff;
   fill: var(--primary-color);
   color: var(--primary-color);
 }
@@ -1267,7 +1267,7 @@
 }
 
 .elementor-2 .elementor-element.elementor-element-36ba6c5.elementor-view-stacked .elementor-icon {
-  background-color: #ccfcff;
+  background-color: #dbfdff;
   fill: var(--primary-color);
   color: var(--primary-color);
 }
