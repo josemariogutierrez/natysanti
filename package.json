@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html --no-source-maps --public-url ./",
-    "deploy": "gh-pages -d dist"
+    "deploy": "echo 'natysanti.com' > ./dist/CNAME && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
