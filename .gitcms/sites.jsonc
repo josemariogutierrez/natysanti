@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "sites": [
+    {
+      "key": "natysanti",
+      "display_name": "Natysanti",
+      "website_url": "https://josemariogutierrez.github.io/natysanti/",
+      "root_path": ""
+    }
+  ]
+}
